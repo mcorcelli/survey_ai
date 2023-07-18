@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surveys",
+  "info": {
+    "singularName": "survey",
+    "pluralName": "surveys",
+    "displayName": "survey"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "primaryNeed": {
+      "type": "string"
+    },
+    "keyFeatures": {
+      "type": "string"
+    },
+    "serviceTier": {
+      "type": "string"
+    },
+    "suggestions": {
+      "type": "text"
+    },
+    "pricingExpectationsStarter": {
+      "type": "biginteger"
+    },
+    "pricingExpectationsIntermediate": {
+      "type": "biginteger"
+    },
+    "pricingExpectationsAdvanced": {
+      "type": "biginteger"
+    },
+    "pricingExpectationsPremium": {
+      "type": "biginteger"
+    },
+    "usingSimilarServices": {
+      "type": "boolean"
+    },
+    "usedFinancialAnalysisServices": {
+      "type": "boolean"
+    },
+    "currentServicePrice": {
+      "type": "biginteger"
+    },
+    "interestedInPremiumServices": {
+      "type": "boolean"
+    },
+    "premiumServicesPrice": {
+      "type": "biginteger"
+    },
+    "additionalComments": {
+      "type": "text"
+    },
+    "openForDiscussion": {
+      "type": "boolean"
+    }
+  }
+}

@@ -163,7 +163,7 @@ export default {
       // You can perform additional actions with the form data, such as sending it to a server or storing it in a database
     },
   }
-},
+};
 
 </script>
 
